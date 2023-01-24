@@ -1,7 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const data = require('./base/db.json')
-const imagesRouter = require('./assets');
+// const imagesRouter = require('./assets');
 // const cors = require('cors');
 const app = express();
 //configuraciones
@@ -18,7 +18,8 @@ app.use(morgan('dev'));
 //   res.header('Allow', 'GET, POST, OPTIONS, PUT, DELETE');
 //   next();
 //  });
-app.use('/images', imagesRouter)
+// app.use('/images', imagesRouter)
+
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
