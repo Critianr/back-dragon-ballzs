@@ -32,7 +32,7 @@ app.use(express.urlencoded({extended: false}));
 // app.use('/items/', indexRoutes)
 app.get('/assets/:name', (req, res) => {
     // Obtiene el nombre de la imagen desde la ruta
-    const nombre = req.params.nombre;
+    const nombre = req.params.name;
   
     // Lee el archivo de imagen
     fs.readFile(path.join(__dirname, 'assets', name), (err, data) => {
