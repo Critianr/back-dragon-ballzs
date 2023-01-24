@@ -9,6 +9,7 @@ app.set('port', process.env.PORT || 3000);
 
 
 //middlewares 
+app.use('/assets', express.static(path.join(__dirname, './assets')));
 app.use(morgan('dev'));
 // app.use(cors());
 // app.use((req, res, next)=>{
@@ -32,7 +33,9 @@ app.get('/', async (req, res)=>{
     res.json(data);
     console.log(data)
 });
-
+app.get('/assets', (req, res) => {
+    res.json({imagen: '/assets'});
+  });
 app.listen(app.get('port'), ()=>{
     console.log('Server started', app.get('port'));
 });
