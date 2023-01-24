@@ -15,7 +15,7 @@
         "Super Kamehameha",
         "Super Dragon Fist"
       ],
-    "img": "https://github.com/Critianr/back-dragon-ballzs/blob/main/assets/goku.png"
+    "img": "/assets/goku.png"
     },
     {
       "id": "vegeta",
@@ -32,7 +32,7 @@
         "Final Flash",
         "Big Bang Attack"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/vegeta.png"
+      "img": "assets/vegeta.png"
     },
     {
       "id": "gohan",
@@ -49,7 +49,7 @@
         "Super Kamehameha",
         "Masenko"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/gohan.png"
+      "img": "assets/gohan.png"
     },
     {
       "id": "trunks",
@@ -66,7 +66,7 @@
         "Galic Gun",
         "Finish Buster"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/trunks.png"
+      "img": "assets/trunks.png"
     },
     {
       "id": "frieza",
@@ -83,7 +83,7 @@
         "Death Beam",
         "Death Ball"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/frieza.png"
+      "img": "assets/frieza.png"
     },
     {
       "id": "cell",
@@ -100,7 +100,7 @@
         "Super Kamehameha",
         "Destructo Disk"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/cell.png"
+      "img": "assets/cell.png"
     },
     {
       "id": "buu",
@@ -117,7 +117,7 @@
         "Healing",
         "Chocolate Beam"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/buu.png"
+      "img": "assets/buu.png"
     },
     {
       "id": "beerus",
@@ -134,7 +134,7 @@
         "Destruction Gods, Fierce Attack",
         "Hakai"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/beerus.png"
+      "img": "assets/beerus.png"
     },
     {
       "id": "piccolo",
@@ -151,7 +151,7 @@
         "Tri-Form",
         "Light Grenade"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/piccolo.png"
+      "img": "assets/piccolo.png"
     },
     {
       "id": "gotenks",
@@ -168,7 +168,7 @@
         "Galactic Donut",
         "Super Ghost Kamikaze Attack"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/gotenks.png"
+      "img": "assets/gotenks.png"
     },
     {
       "id": "hit",
@@ -185,7 +185,7 @@
         "Death Blow",
         "Vital Point Attack"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/hit.png"
+      "img": "assets/hit.png"
     },
     {
       "id": "krillin",
@@ -202,7 +202,7 @@
         "Destrcuto Disk",
         "Solar Flare"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/krillin.png"
+      "img": "assets/krillin.png"
     },
     {
       "id": "jiren",
@@ -219,7 +219,7 @@
         "Energy Barrier",
         "Overheat Magnetron"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/jiren.png"
+      "img": "assets/jiren.png"
     },
     {
       "id": "tien",
@@ -236,7 +236,7 @@
         "Solar Flare",
         "Tri-Form"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/tien.png"
+      "img": "assets/tien.png"
     },
     {
       "id": "android 17",
@@ -253,7 +253,7 @@
         "Super Kamehameha",
         "Super Dragon Fist"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/android17.png"
+      "img": "assets/android17.png"
     },
     {
       "id": "android 18",
@@ -270,7 +270,7 @@
         "Full Power Energy Ball",
         "Power Blitz"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/android18.png"
+      "img": "assets/android18.png"
     },
     {
       "id": "broly",
@@ -287,7 +287,7 @@
         "Eraser Cannon",
         "Gigantic Slam"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/broly.png"
+      "img": "assets/broly.png"
     },
     {
       "id": "vegito",
@@ -304,7 +304,7 @@
         "Final Kamehameha",
         "Beam Sword Slash"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/vegito.png"
+      "img": "assets/vegito.png"
     },
     {
       "id": "gogeta",
@@ -321,7 +321,7 @@
         "Big Bang Kamehameha",
         "Stardust Breaker"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/gogeta.png"
+      "img": "assets/gogeta.png"
     },
     {
       "id": "goku black",
@@ -338,7 +338,7 @@
         "Black Kamehameha",
         "God Slicer"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/gokublack.png"
+      "img": "assets/gokublack.png"
     }
   
 ]
