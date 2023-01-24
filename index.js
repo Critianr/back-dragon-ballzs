@@ -3,7 +3,7 @@ const morgan = require('morgan');
 const data = require('./base/db.json')
 const fs = require('fs');
 const path = require('path');
-const imagesRouter = require('/assets');
+// const imagesRouter = require('/assets');
 // const cors = require('cors');
 const app = express();
 //configuraciones
@@ -11,7 +11,7 @@ app.set('port', process.env.PORT || 3000);
 // app.use('/assets', imagesRouter);
 
 //middlewares 
-// app.use('/assets', express.static(path.join(__dirname, './assets')));
+app.use('/assets', express.static(path.join(__dirname, './assets')));
 app.use(morgan('dev'));
 // app.use(cors());
 // app.use((req, res, next)=>{
@@ -35,7 +35,7 @@ app.get('/', async (req, res)=>{
     res.json(data);
     console.log(data)
 });
-app.use('/assets', imagesRouter);
+// app.use('/assets', imagesRouter);
 
 // app.get('/assets', (req, res) => {
 //     res.json({imagen: '/assets'});
