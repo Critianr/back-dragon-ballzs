@@ -1,6 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const data = require('./base/db.json')
+const imagesRouter = require('./assets');
 // const cors = require('cors');
 const app = express();
 //configuraciones
@@ -17,7 +18,7 @@ app.use(morgan('dev'));
 //   res.header('Allow', 'GET, POST, OPTIONS, PUT, DELETE');
 //   next();
 //  });
- 
+app.use('/images', imagesRouter)
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
@@ -30,11 +31,7 @@ app.get('/', async (req, res)=>{
     res.json(data);
     console.log(data)
 });
-app.get('/assets', async (req, res)=>{
-    // const characters = await characters.find();
-    res.json(data.characters.img);
-    console.log(data)
-});
+
 app.listen(app.get('port'), ()=>{
     console.log('Server started', app.get('port'));
 });
