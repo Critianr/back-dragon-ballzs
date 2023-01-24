@@ -8,7 +8,7 @@ const imagesRouter = require('./assets');
 const app = express();
 //configuraciones
 app.set('port', process.env.PORT || 3000);
-app.use('/images', imagesRouter);
+// app.use('/assets', imagesRouter);
 
 //middlewares 
 // app.use('/assets', express.static(path.join(__dirname, './assets')));
