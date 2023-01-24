@@ -30,7 +30,11 @@ app.get('/', async (req, res)=>{
     res.json(data);
     console.log(data)
 });
-
+app.get('/assets', async (req, res)=>{
+    // const characters = await characters.find();
+    res.json(data);
+    console.log(data)
+});
 app.listen(app.get('port'), ()=>{
     console.log('Server started', app.get('port'));
 });
