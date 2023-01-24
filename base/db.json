@@ -15,7 +15,7 @@
         "Super Kamehameha",
         "Super Dragon Fist"
       ],
-    "img": "src/assets/personajes/goku.png"
+    "img": "assets/goku.png"
     },
     {
       "id": "vegeta",
@@ -32,7 +32,7 @@
         "Final Flash",
         "Big Bang Attack"
       ],
-      "img": "src/assets/personajes/vegeta.png"
+      "img": "assets/vegeta.png"
     },
     {
       "id": "gohan",
@@ -49,7 +49,7 @@
         "Super Kamehameha",
         "Masenko"
       ],
-      "img": "src/assets/personajes/gohan.png"
+      "img": "assets/gohan.png"
     },
     {
       "id": "trunks",
@@ -66,7 +66,7 @@
         "Galic Gun",
         "Finish Buster"
       ],
-      "img": "src/assets/personajes/trunks.png"
+      "img": "assets/trunks.png"
     },
     {
       "id": "frieza",
@@ -83,7 +83,7 @@
         "Death Beam",
         "Death Ball"
       ],
-      "img": "src/assets/personajes/frieza.png"
+      "img": "assets/frieza.png"
     },
     {
       "id": "cell",
@@ -100,7 +100,7 @@
         "Super Kamehameha",
         "Destructo Disk"
       ],
-      "img": "src/assets/personajes/cell.png"
+      "img": "assets/cell.png"
     },
     {
       "id": "buu",
@@ -117,7 +117,7 @@
         "Healing",
         "Chocolate Beam"
       ],
-      "img": "src/assets/personajes/buu.png"
+      "img": "assets/buu.png"
     },
     {
       "id": "beerus",
@@ -134,7 +134,7 @@
         "Destruction Gods, Fierce Attack",
         "Hakai"
       ],
-      "img": "src/assets/personajes/beerus.png"
+      "img": "assets/beerus.png"
     },
     {
       "id": "piccolo",
@@ -151,7 +151,7 @@
         "Tri-Form",
         "Light Grenade"
       ],
-      "img": "src/assets/personajes/piccolo.png"
+      "img": "assets/piccolo.png"
     },
     {
       "id": "gotenks",
@@ -168,7 +168,7 @@
         "Galactic Donut",
         "Super Ghost Kamikaze Attack"
       ],
-      "img": "src/assets/personajes/gotenks.png"
+      "img": "assets/gotenks.png"
     },
     {
       "id": "hit",
@@ -185,7 +185,7 @@
         "Death Blow",
         "Vital Point Attack"
       ],
-      "img": "src/assets/personajes/hit.png"
+      "img": "assets/hit.png"
     },
     {
       "id": "krillin",
@@ -202,7 +202,7 @@
         "Destrcuto Disk",
         "Solar Flare"
       ],
-      "img": "src/assets/personajes/krillin.png"
+      "img": "assets/krillin.png"
     },
     {
       "id": "jiren",
@@ -219,7 +219,7 @@
         "Energy Barrier",
         "Overheat Magnetron"
       ],
-      "img": "src/assets/personajes/jiren.png"
+      "img": "assets/jiren.png"
     },
     {
       "id": "tien",
@@ -236,7 +236,7 @@
         "Solar Flare",
         "Tri-Form"
       ],
-      "img": "src/assets/personajes/tien.png"
+      "img": "assets/tien.png"
     },
     {
       "id": "android 17",
@@ -253,7 +253,7 @@
         "Super Kamehameha",
         "Super Dragon Fist"
       ],
-      "img": "src/assets/personajes/android17.png"
+      "img": "assets/android17.png"
     },
     {
       "id": "android 18",
@@ -270,7 +270,7 @@
         "Full Power Energy Ball",
         "Power Blitz"
       ],
-      "img": "src/assets/personajes/android18.png"
+      "img": "assets/android18.png"
     },
     {
       "id": "broly",
@@ -287,7 +287,7 @@
         "Eraser Cannon",
         "Gigantic Slam"
       ],
-      "img": "src/assets/personajes/broly.png"
+      "img": "assets/broly.png"
     },
     {
       "id": "vegito",
@@ -304,7 +304,7 @@
         "Final Kamehameha",
         "Beam Sword Slash"
       ],
-      "img": "src/assets/personajes/vegito.png"
+      "img": "assets/vegito.png"
     },
     {
       "id": "gogeta",
@@ -321,7 +321,7 @@
         "Big Bang Kamehameha",
         "Stardust Breaker"
       ],
-      "img": "src/assets/personajes/gogeta.png"
+      "img": "assets/gogeta.png"
     },
     {
       "id": "goku black",
@@ -338,7 +338,7 @@
         "Black Kamehameha",
         "God Slicer"
       ],
-      "img": "src/assets/personajes/gokublack.png"
+      "img": "assets/gokublack.png"
     }
   
 ]
