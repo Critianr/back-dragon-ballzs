@@ -32,7 +32,7 @@ app.get('/', async (req, res)=>{
 });
 app.get('/assets', async (req, res)=>{
     // const characters = await characters.find();
-    res.json(data);
+    res.json(data.characters.img);
     console.log(data)
 });
 app.listen(app.get('port'), ()=>{
