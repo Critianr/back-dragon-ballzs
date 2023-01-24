@@ -3,7 +3,7 @@ const morgan = require('morgan');
 const data = require('./base/db.json')
 const fs = require('fs');
 const path = require('path');
-const imagesRouter = require('./assets');
+const imagesRouter = require('/assets');
 // const cors = require('cors');
 const app = express();
 //configuraciones
