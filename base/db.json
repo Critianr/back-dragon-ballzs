@@ -15,7 +15,7 @@
         "Super Kamehameha",
         "Super Dragon Fist"
       ],
-    "img": "https://back-dragon-ballzs-production.up.railway.app/assets/goku.png"
+    "img": "/assets/goku.png"
     },
     {
       "id": "vegeta",
@@ -32,7 +32,7 @@
         "Final Flash",
         "Big Bang Attack"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/vegeta.png"
+      "img": "http://localhost:3000/api/assets/vegeta.png"
     },
     {
       "id": "gohan",
@@ -49,7 +49,7 @@
         "Super Kamehameha",
         "Masenko"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/gohan.png"
+      "img": "http://localhost:3000/api/assets/gohan.png"
     },
     {
       "id": "trunks",
@@ -66,7 +66,7 @@
         "Galic Gun",
         "Finish Buster"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/trunks.png"
+      "img": "http://localhost:3000/api/assets/trunks.png"
     },
     {
       "id": "frieza",
@@ -83,7 +83,7 @@
         "Death Beam",
         "Death Ball"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/frieza.png"
+      "img": "http://localhost:3000/api/assets/frieza.png"
     },
     {
       "id": "cell",
@@ -100,7 +100,7 @@
         "Super Kamehameha",
         "Destructo Disk"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/cell.png"
+      "img": "http://localhost:3000/api/assets/cell.png"
     },
     {
       "id": "buu",
@@ -117,7 +117,7 @@
         "Healing",
         "Chocolate Beam"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/buu.png"
+      "img": "http://localhost:3000/api/assets/buu.png"
     },
     {
       "id": "beerus",
@@ -134,7 +134,7 @@
         "Destruction Gods, Fierce Attack",
         "Hakai"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/beerus.png"
+      "img": "http://localhost:3000/api/assets/beerus.png"
     },
     {
       "id": "piccolo",
@@ -151,7 +151,7 @@
         "Tri-Form",
         "Light Grenade"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/piccolo.png"
+      "img": "http://localhost:3000/api/assets/piccolo.png"
     },
     {
       "id": "gotenks",
@@ -168,7 +168,7 @@
         "Galactic Donut",
         "Super Ghost Kamikaze Attack"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/gotenks.png"
+      "img": "http://localhost:3000/api/assets/gotenks.png"
     },
     {
       "id": "hit",
@@ -185,7 +185,7 @@
         "Death Blow",
         "Vital Point Attack"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/hit.png"
+      "img": "http://localhost:3000/api/assets/hit.png"
     },
     {
       "id": "krillin",
@@ -202,7 +202,7 @@
         "Destrcuto Disk",
         "Solar Flare"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/krillin.png"
+      "img": "http://localhost:3000/api/assets/krillin.png"
     },
     {
       "id": "jiren",
@@ -219,7 +219,7 @@
         "Energy Barrier",
         "Overheat Magnetron"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/jiren.png"
+      "img": "http://localhost:3000/api/assets/jiren.png"
     },
     {
       "id": "tien",
@@ -236,14 +236,14 @@
         "Solar Flare",
         "Tri-Form"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/tien.png"
+      "img": "http://localhost:3000/api/assets/tien.png"
     },
     {
       "id": "android 17",
       "name": "Android 17",
       "race": "Android",
       "gender": "Male",
-      "bio": "Android 17, Lapis when he was an ordinary human, is the twin brother of Android 18 and Dr. Gero's seventeenth android creation, designed to serve Gero's vendetta against Goku. Despite his interests not initially deviating from this expectation, Android 17 takes it upon himself to kill Dr. Gero, who is uncooperative with Android 18's curiosity in activating Android 16 and deemed inferior by 17. Android 17 makes a return a decade later in Dragon Ball Super, working as a national park ranger preserving wildlife from poachers. He is married and has a child, with two more children being adopted. He is asked by Goku to join Team Universe 7 in the Tournament of Power and due to Goku and Frieza's sacrifice to take out Jiren, he is left as the sole fighter remaining by the end of the tournament and the one who makes the wish on the Super Dragon Balls.",
+      "bio": "Android 17, Ls when he was an ordinary human, is the twin brother of Android 18 and Dr. Gero's seventeenth android creation, designed to serve Gero's vendetta against Goku. Despite his interests not initially deviating from this expectation, Android 17 takes it upon himself to kill Dr. Gero, who is uncooperative with Android 18's curiosity in activating Android 16 and deemed inferior by 17. Android 17 makes a return a decade later in Dragon Ball Super, working as a national park ranger preserving wildlife from poachers. He is married and has a child, with two more children being adopted. He is asked by Goku to join Team Universe 7 in the Tournament of Power and due to Goku and Frieza's sacrifice to take out Jiren, he is left as the sole fighter remaining by the end of the tournament and the one who makes the wish on the Super Dragon Balls.",
       "health": "440,000",
       "attack": "43,000",
       "defense": "42,000",
@@ -253,7 +253,7 @@
         "Super Kamehameha",
         "Super Dragon Fist"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/android17.png"
+      "img": "http://localhost:3000/api/assets/android17.png"
     },
     {
       "id": "android 18",
@@ -270,7 +270,7 @@
         "Full Power Energy Ball",
         "Power Blitz"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/android18.png"
+      "img": "http://localhost:3000/api/assets/android18.png"
     },
     {
       "id": "broly",
@@ -287,7 +287,7 @@
         "Eraser Cannon",
         "Gigantic Slam"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/broly.png"
+      "img": "http://localhost:3000/api/assets/broly.png"
     },
     {
       "id": "vegito",
@@ -304,7 +304,7 @@
         "Final Kamehameha",
         "Beam Sword Slash"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/vegito.png"
+      "img": "http://localhost:3000/api/assets/vegito.png"
     },
     {
       "id": "gogeta",
@@ -321,7 +321,7 @@
         "Big Bang Kamehameha",
         "Stardust Breaker"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/gogeta.png"
+      "img": "http://localhost:3000/api/assets/gogeta.png"
     },
     {
       "id": "goku black",
@@ -338,7 +338,7 @@
         "Black Kamehameha",
         "God Slicer"
       ],
-      "img": "https://back-dragon-ballzs-production.up.railway.app/assets/gokublack.png"
+      "img": "http://localhost:3000/api/assets/gokublack.png"
     }
   
 ]
