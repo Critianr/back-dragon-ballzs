@@ -15,7 +15,7 @@
         "Super Kamehameha",
         "Super Dragon Fist"
       ],
-    "img": "/assets/goku.png"
+    "img": "https://dragon-ballz-super-api.site/api/assets/goku.png"
     },
     {
       "id": "vegeta",
