@@ -32,7 +32,7 @@
         "Final Flash",
         "Big Bang Attack"
       ],
-      "img": "http://localhost:3000/api/assets/vegeta.png"
+      "img": "https://dragon-ballz-super-api.site/api/assets/vegeta.png"
     },
     {
       "id": "gohan",
@@ -49,7 +49,7 @@
         "Super Kamehameha",
         "Masenko"
       ],
-      "img": "http://localhost:3000/api/assets/gohan.png"
+      "img": "https://dragon-ballz-super-api.site/api/assets/gohan.png"
     },
     {
       "id": "trunks",
@@ -66,7 +66,7 @@
         "Galic Gun",
         "Finish Buster"
       ],
-      "img": "http://localhost:3000/api/assets/trunks.png"
+      "img": "https://dragon-ballz-super-api.site/api/assets/trunks.png"
     },
     {
       "id": "frieza",
@@ -83,7 +83,7 @@
         "Death Beam",
         "Death Ball"
       ],
-      "img": "http://localhost:3000/api/assets/frieza.png"
+      "img": "https://dragon-ballz-super-api.site/api/assets/frieza.png"
     },
     {
       "id": "cell",
@@ -100,7 +100,7 @@
         "Super Kamehameha",
         "Destructo Disk"
       ],
-      "img": "http://localhost:3000/api/assets/cell.png"
+      "img": "https://dragon-ballz-super-api.site/api/assets/cell.png"
     },
     {
       "id": "buu",
@@ -117,7 +117,7 @@
         "Healing",
         "Chocolate Beam"
       ],
-      "img": "http://localhost:3000/api/assets/buu.png"
+      "img": "https://dragon-ballz-super-api.site/api/assets/buu.png"
     },
     {
       "id": "beerus",
@@ -134,7 +134,7 @@
         "Destruction Gods, Fierce Attack",
         "Hakai"
       ],
-      "img": "http://localhost:3000/api/assets/beerus.png"
+      "img": "https://dragon-ballz-super-api.site/api/assets/beerus.png"
     },
     {
       "id": "piccolo",
@@ -151,7 +151,7 @@
         "Tri-Form",
         "Light Grenade"
       ],
-      "img": "http://localhost:3000/api/assets/piccolo.png"
+      "img": "https://dragon-ballz-super-api.site/api/assets/piccolo.png"
     },
     {
       "id": "gotenks",
@@ -168,7 +168,7 @@
         "Galactic Donut",
         "Super Ghost Kamikaze Attack"
       ],
-      "img": "http://localhost:3000/api/assets/gotenks.png"
+      "img": "https://dragon-ballz-super-api.site/api/assets/gotenks.png"
     },
     {
       "id": "hit",
@@ -185,7 +185,7 @@
         "Death Blow",
         "Vital Point Attack"
       ],
-      "img": "http://localhost:3000/api/assets/hit.png"
+      "img": "https://dragon-ballz-super-api.site/api/assets/hit.png"
     },
     {
       "id": "krillin",
@@ -202,7 +202,7 @@
         "Destrcuto Disk",
         "Solar Flare"
       ],
-      "img": "http://localhost:3000/api/assets/krillin.png"
+      "img": "https://dragon-ballz-super-api.site/api/assets/krillin.png"
     },
     {
       "id": "jiren",
@@ -219,7 +219,7 @@
         "Energy Barrier",
         "Overheat Magnetron"
       ],
-      "img": "http://localhost:3000/api/assets/jiren.png"
+      "img": "https://dragon-ballz-super-api.site/api/assets/jiren.png"
     },
     {
       "id": "tien",
@@ -236,7 +236,7 @@
         "Solar Flare",
         "Tri-Form"
       ],
-      "img": "http://localhost:3000/api/assets/tien.png"
+      "img": "https://dragon-ballz-super-api.site/api/assets/tien.png"
     },
     {
       "id": "android 17",
@@ -253,7 +253,7 @@
         "Super Kamehameha",
         "Super Dragon Fist"
       ],
-      "img": "http://localhost:3000/api/assets/android17.png"
+      "img": "https://dragon-ballz-super-api.site/api/assets/android17.png"
     },
     {
       "id": "android 18",
@@ -270,7 +270,7 @@
         "Full Power Energy Ball",
         "Power Blitz"
       ],
-      "img": "http://localhost:3000/api/assets/android18.png"
+      "img": "https://dragon-ballz-super-api.site/api/assets/android18.png"
     },
     {
       "id": "broly",
@@ -287,7 +287,7 @@
         "Eraser Cannon",
         "Gigantic Slam"
       ],
-      "img": "http://localhost:3000/api/assets/broly.png"
+      "img": "https://dragon-ballz-super-api.site/api/assets/broly.png"
     },
     {
       "id": "vegito",
@@ -304,7 +304,7 @@
         "Final Kamehameha",
         "Beam Sword Slash"
       ],
-      "img": "http://localhost:3000/api/assets/vegito.png"
+      "img": "https://dragon-ballz-super-api.site/api/assets/vegito.png"
     },
     {
       "id": "gogeta",
@@ -321,7 +321,7 @@
         "Big Bang Kamehameha",
         "Stardust Breaker"
       ],
-      "img": "http://localhost:3000/api/assets/gogeta.png"
+      "img": "https://dragon-ballz-super-api.site/api/assets/gogeta.png"
     },
     {
       "id": "goku black",
@@ -338,7 +338,7 @@
         "Black Kamehameha",
         "God Slicer"
       ],
-      "img": "http://localhost:3000/api/assets/gokublack.png"
+      "img": "https://dragon-ballz-super-api.site/api/assets/gokublack.png"
     }
   
 ]
