@@ -2,29 +2,14 @@ const express = require('express');
 const morgan = require('morgan');
 const data = require('./base/db.json')
 const cors = require('cors');
-const mysql = require('mysql');
+// const mysql = require('mysql');
 // const fs = require('fs');
 const path = require('path');
 // const imagesRouter = require('/assets');
 // const cors = require('cors');
 
 const app = express();
-// const connection = mysql.createConnection(
-//     // {
-//     'mysql://m5sk87gp6xzsy8u0hyzz:pscale_pw_yZGnJA4Hetu7z1695wrziNbvR7xiexmHKhCifGMVSId@us-east.connect.psdb.cloud/dbzs-db?ssl={"rejectUnauthorized":true}'
-// //   host: 'http://dragonballzsuperbd.orgfree.com/ftp/',
-// //   user: '502175',
-// //   password: 'Jalape20',
-// //   database: '502175',
-// // }
-// )
-// connection.connect(function(error){
-//     if(error){
-//         throw error;
-//     }else{
-//         console.log("CONEXION EXITOSA!!!")
-//     }
-// })
+
 // Indicar que la carpeta "public" es una carpeta estática
 app.use(express.static('public'));
 
@@ -69,11 +54,6 @@ app.get('/api', async (req, res)=>{
     res.json(data);
     console.log(data)
 });
-// app.use('/assets', imagesRouter);
-
-// app.get('/assets', (req, res) => {
-//     res.json({imagen: '/assets'});
-//   });
 app.listen(app.get('port'), ()=>{
     console.log('Server started', app.get('port'));
 });
