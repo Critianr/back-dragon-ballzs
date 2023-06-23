@@ -9,7 +9,7 @@ const path = require('path');
 // const cors = require('cors');
 
 const app = express();
-
+app.use(cors());
 // Indicar que la carpeta "public" es una carpeta estática
 app.use(express.static('public'));
 
@@ -23,7 +23,7 @@ app.set('port', process.env.PORT || 3000);
 app.use('/api/assets', express.static(path.join(__dirname, './assets')));
 app.use(morgan('dev'));
 
-app.use(cors());
+
 // app.use((req, res, next)=>{
 //   res.header("Access-Control-Allow-Origin", "*");
 //   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, ContentType, Accept");
