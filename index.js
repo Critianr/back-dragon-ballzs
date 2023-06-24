@@ -1,6 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
-const data = require('./base/db.json')
+const data = require('./base/db2.json')
 const cors = require('cors');
 // const mysql = require('mysql');
 // const fs = require('fs');
