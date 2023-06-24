@@ -11,7 +11,7 @@ const path = require('path');
 const app = express();
 app.use(cors());
 app.use(function(req, res, next) {
-    res.header('Access-Control-Allow-Origin', 'https://back-dragon-ballzs-production.up.railway.app/api'); // Reemplaza con el dominio de tu aplicación
+    res.header('Access-Control-Allow-Origin', 'https://back-dragon-ballzs-production.up.railway.app/'); // Reemplaza con el dominio de tu aplicación
     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
     next();
   });
