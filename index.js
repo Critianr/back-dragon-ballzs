@@ -11,9 +11,11 @@ const path = require('path');
 const app = express();
 app.use(cors());
 app.use(function(req, res, next) {
-    res.header('Access-Control-Allow-Origin', 'http://localhost:5173/'); // Reemplaza con el dominio de tu aplicación
-    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-    next();
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:5173'); // Establece el origen permitido
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE'); // Establece los métodos HTTP permitidos
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization'); // Establece los encabezados permitidos
+  next();
   });
 // Indicar que la carpeta "public" es una carpeta estática
 // app.use(express.static('public'));
