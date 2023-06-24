@@ -11,11 +11,20 @@ const path = require('path');
 const app = express();
 app.use(cors());
 app.use(function(req, res, next) {
-  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-//   res.setHeader('Access-Control-Allow-Origin', 'http://localhost:5173');
-  res.setHeader('Access-Control-Allow-Origin', 'https://client-dragon-ballzs.vercel.app/'); // Establece el origen permitido
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE'); // Establece los métodos HTTP permitidos
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, application/json'); // Establece los encabezados permitidos
+//   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+// //   res.setHeader('Access-Control-Allow-Origin', 'http://localhost:5173');
+//   res.setHeader('Access-Control-Allow-Origin', 'https://client-dragon-ballzs.vercel.app/'); // Establece el origen permitido
+//   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE'); // Establece los métodos HTTP permitidos
+//   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, application/json'); // Establece los encabezados permitidos
+res.setHeader('Access-Control-Allow-Credentials', true)
+res.setHeader('Access-Control-Allow-Origin', '*')
+// another common pattern
+// res.setHeader('Access-Control-Allow-Origin', req.headers.origin);
+res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,PATCH,DELETE,POST,PUT')
+res.setHeader(
+  'Access-Control-Allow-Headers',
+  'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version'
+)
   next();
   });
 // Indicar que la carpeta "public" es una carpeta estática
