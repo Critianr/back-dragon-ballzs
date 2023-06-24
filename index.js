@@ -16,7 +16,7 @@ app.use(function(req, res, next) {
     next();
   });
 // Indicar que la carpeta "public" es una carpeta estática
-app.use(express.static('public'));
+// app.use(express.static('public'));
 
 // o Indicar que la carpeta "dist" es una carpeta estática
 
