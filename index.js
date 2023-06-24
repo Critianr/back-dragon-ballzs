@@ -15,7 +15,7 @@ app.use(function(req, res, next) {
 //   res.setHeader('Access-Control-Allow-Origin', 'http://localhost:5173');
   res.setHeader('Access-Control-Allow-Origin', 'https://client-dragon-ballzs.vercel.app/'); // Establece el origen permitido
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE'); // Establece los métodos HTTP permitidos
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization'); // Establece los encabezados permitidos
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, application/json'); // Establece los encabezados permitidos
   next();
   });
 // Indicar que la carpeta "public" es una carpeta estática
