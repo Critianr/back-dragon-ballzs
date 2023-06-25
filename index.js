@@ -11,7 +11,7 @@ const path = require('path');
 const app = express();
 app.use(cors());
 app.use(cors({
-    origin: 'https://client-dragon-ballzs.vercel.app',
+    origin: 'https://www.dragon-ballz-super-api.site/',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
   }));
