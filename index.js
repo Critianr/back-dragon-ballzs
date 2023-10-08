@@ -44,7 +44,7 @@ app.use('/api/assets', express.static(path.join(__dirname, './assets')));
 app.use(morgan('dev'));
 // Middleware para redirigir todas las solicitudes a index.html
 app.use((req, res, next) => {
-    res.sendFile(path.resolve(__dirname, 'www.dragon-ballz-super-api.site/index.html')); // Reemplaza 'path/to/your/app' con la ubicación real de tu archivo index.html
+    res.sendFile(path.resolve(__dirname, 'www.dragon-ballz-super-api.sitel')); // Reemplaza 'path/to/your/app' con la ubicación real de tu archivo index.html
   });
 
 
